@@ -17,9 +17,9 @@ function setup() {
   }
 
   var ball_options = {
-    //restitution: 
-    isStatic: true
+    restitution:1 
   }
+  
   ground = Bodies.rectangle(200,390,200,20,ground_options);
   World.add(world,ground);
 
